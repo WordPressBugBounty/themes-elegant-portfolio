@@ -94,6 +94,66 @@ function perfect_portfolio_customize_register_appearance( $wp_customize ) {
             )
         )
     );
+
+    $wp_customize->add_setting(
+        'ed_localgoogle_fonts',
+        array(
+            'default'           => false,
+            'sanitize_callback' => 'perfect_portfolio_sanitize_checkbox',
+        )
+    );
+    
+    $wp_customize->add_control(
+        'ed_localgoogle_fonts',
+        array(
+            'label'   => __( 'Load Google Fonts Locally', 'elegant-portfolio' ),
+            'section' => 'typography_settings',
+            'type'    => 'checkbox',
+        )
+    );
+
+    $wp_customize->add_setting(
+        'ed_preload_local_fonts',
+        array(
+            'default'           => false,
+            'sanitize_callback' => 'perfect_portfolio_sanitize_checkbox',
+        )
+    );
+    
+    $wp_customize->add_control(
+        'ed_preload_local_fonts',
+        array(
+            'label'           => __( 'Preload Local Fonts', 'elegant-portfolio' ),
+            'section'         => 'typography_settings',
+            'type'            => 'checkbox',
+            'active_callback' => 'perfect_portfolio_flush_fonts_callback'
+        )
+    );
+    
+
+    $wp_customize->add_setting(
+        'flush_google_fonts',
+        array(
+            'default'           => '',
+            'sanitize_callback' => 'wp_kses',
+        )
+    );
+
+    $wp_customize->add_control(
+        'flush_google_fonts',
+        array(
+            'label'       => __( 'Flush Local Fonts Cache', 'elegant-portfolio' ),
+            'description' => __( 'Click the button to reset the local fonts cache.', 'elegant-portfolio' ),
+            'type'        => 'button',
+            'settings'    => array(),
+            'section'     => 'typography_settings',
+            'input_attrs' => array(
+                'value' => __( 'Flush Local Fonts Cache', 'elegant-portfolio' ),
+                'class' => 'button button-primary flush-it',
+            ),
+            'active_callback' => 'perfect_portfolio_flush_fonts_callback'
+        )
+    );
     
     /** Move Background Image section to appearance panel */
     $wp_customize->get_section( 'background_image' )->panel    = 'appearance_settings';

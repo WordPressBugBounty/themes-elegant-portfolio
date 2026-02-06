@@ -1,21 +1,28 @@
-# <!=Copyright (C) 2021 Rara Theme
+# <!=Copyright (C) 2025 Rara Theme
 # This file is distributed under the GNU General Public License v3 or later.=!>
 msgid ""
 msgstr ""
-"Project-Id-Version: Elegant Portfolio 1.0.4\n"
+"Project-Id-Version: Elegant Portfolio 1.0.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/elegant-portfolio\n"
-<<<<<<< Updated upstream
-"POT-Creation-Date: 2021-01-22 10:17:21+00:00\n"
-=======
-"POT-Creation-Date: 2020-12-31 09:41:31+00:00\n"
->>>>>>> Stashed changes
+"POT-Creation-Date: 2025-11-18 04:43:30+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2025-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"X-Generator: grunt-wp-i18n 1.0.3\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.4\n"
 
 #: functions.php:39
 msgid "Appearance Settings"
@@ -45,19 +52,35 @@ msgstr ""
 msgid "Secondary font of the site."
 msgstr ""
 
-#: functions.php:108
+#: functions.php:109
+msgid "Load Google Fonts Locally"
+msgstr ""
+
+#: functions.php:126
+msgid "Preload Local Fonts"
+msgstr ""
+
+#: functions.php:145 functions.php:151
+msgid "Flush Local Fonts Cache"
+msgstr ""
+
+#: functions.php:146
+msgid "Click the button to reset the local fonts cache."
+msgstr ""
+
+#: functions.php:168
 msgid "Demo & Documentation"
 msgstr ""
 
-#: functions.php:121
+#: functions.php:181
 msgid "Demo Link: %1$sClick here.%2$s"
 msgstr ""
 
-#: functions.php:123
+#: functions.php:183
 msgid "Documentation Link: %1$sClick here.%2$s"
 msgstr ""
 
-#: functions.php:144
+#: functions.php:204
 msgid "Elegant Portfolio | Developed By "
 msgstr ""
 
@@ -65,25 +88,25 @@ msgstr ""
 msgid "Rara Theme"
 msgstr ""
 
-#: functions.php:147
+#: functions.php:207
 msgid " Powered by %s"
 msgstr ""
 
-#: functions.php:147
+#: functions.php:207
 msgid "https://wordpress.org/"
 msgstr ""
 
-#: functions.php:183
+#: functions.php:243
 msgid "Contact Section"
 msgstr ""
 
-#: functions.php:185
+#: functions.php:245
 msgid ""
 "Add Text Widget for contact form and \"Rara:Contact Widget\" for contact "
 "details."
 msgstr ""
 
-#: functions.php:272
+#: functions.php:332
 #. translators: %s: Name of current post. Only visible to screen readers
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr ""
@@ -125,7 +148,7 @@ msgstr ""
 msgid "https://rarathemes.com/"
 msgstr ""
 
-#: functions.php:306
+#: functions.php:366
 #. Translators: If there are characters in your language that are not supported
 #. by respective fonts, translate this to 'off'. Do not translate into your own
 #. language.
@@ -133,12 +156,12 @@ msgctxt "Primary Font: on or off"
 msgid "on"
 msgstr ""
 
-#: functions.php:307
+#: functions.php:367
 msgctxt "Secondary Font: on or off"
 msgid "on"
 msgstr ""
 
-#: functions.php:308
+#: functions.php:368
 msgctxt "Site Title Font: on or off"
 msgid "on"
 msgstr ""

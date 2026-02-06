@@ -2,9 +2,9 @@
 
 Contributors: raratheme
 Requires at least: 4.7
-Requires PHP: 5.6
-Tested up to: 5.7
-Stable tag: 1.0.5
+Requires PHP: 7.4
+Tested up to: 6.8
+Stable tag: 1.0.6
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Tags: blog, one-column, two-columns, right-sidebar, left-sidebar, footer-widgets, custom-background, custom-menu, custom-logo, featured-images, threaded-comments, full-width-template, rtl-language-support, translation-ready, theme-options, e-commerce, portfolio
@@ -53,6 +53,9 @@ All other images including icon image and images used in customizer settings are
 
 == Changelog ==
 	
+	1.0.6 - November 18, 2025
+	* Update: Updated WordPress Version to 6.8.
+
 	1.0.5
 	* Added link underline in post/page 
 
